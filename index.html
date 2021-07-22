@@ -1,0 +1,170 @@
+<div class="container">
+  <header class="header">
+    <h1 id="title" class="text-center">Survey Form</h1>
+    <p id="description" class="description text-center">
+      Thank you for taking the time to answer this survey.</p>
+  </header>
+  <form id="survey-form">
+    
+    <div class="form-group">
+      <label id="label-name" for="name">Name</label>
+      <input type="text" name="name" id="name" class="form-control" placeholder="Enter your name" required />
+    </div>
+    
+    <div class="form-group">
+      <label id="label-email" for="email">Email</label>
+      <input type="email" name="email" id="email" class="form-control" placeholder="Enter your email" required />
+    </div>
+    
+    <div class="form-group">
+      <label id="label-number" for="phone">Phone Number<span class="clue">(optional)</span></label>
+      <input type="tel" name="tel" id="tel" class="form-control" placeholder="Enter your phone number">
+    </div>
+    
+    <div class="form-group">
+      <label id="number-label" for="number"
+        >Age<span class="clue">(optional)</span></label
+      >
+      <input
+        type="number"
+        name="age"
+        id="number"
+        min="10"
+        max="99"
+        class="form-control"
+        placeholder="Age"
+      />
+    </div>
+      
+      <div class="form-group">
+        <p>State your occupation</p>
+        <select id="drop-down" name="role" class="form-control" required>
+          <option disable selected value>Select current role</option>
+          <option value="student">Student</option>
+          <option value=freshie>Fresh Graduate</option>
+          <option value="job">Full-time Job</option>
+          <option value="freelancer">Freelancer</option>
+          <option value="prefer">Prefer not to say</option>
+          <option value="other">Other</option>
+        </select>
+      </div>
+      
+      <div class="form-group">
+      <p>Do you smoke?</p>
+        <label>
+          <input class="input-radio" type="radio" name="smoker" value="yes" checked />Yes</label>
+    
+        
+        <label>
+          <input class="input-radio" type="radio" name="smoker" value="no" checked />No</label>
+        
+        <label>
+          <input 
+             class="input-radio"
+             type="radio"
+             name="smoker"
+             value="sometime"
+             checked />Sometimes
+        </label>
+    </div>
+        
+        <div class="form-group">
+          <p>Describe yourself
+          <span class="clue">(Check all that apply)</span>
+          </p>
+          
+          <label>
+            <input class="input-checkbox" type="checkbox" name="personality" value="energetic"/>Energetic
+          </label>
+          
+          <label>
+            <input class="input-checkbox" type="checkbox" name="personality" value="easy-going"/>Easy-going
+          </label>
+          
+          <label>
+            <input class="input-checkbox" type="checkbox" name="personality" value="fun"/>Fun
+          </label>
+          
+          <label>
+            <input class="input-checkbox" type="checkbox" name="personality" value="responsible"/>Responsible
+          </label>
+          
+          <label>
+            <input class="input-checkbox" type="checkbox" name="personality" value="honest"/>Honest
+          </label>
+          
+          <label>
+            <input class="input-checkbox" type="checkbox" name="personality" value="loyal"/>Loyal
+          </label>
+          
+          <label>
+            <input class="input-checkbox" type="checkbox" name="personality" value="loving"/>Loving
+          </label>
+          
+          <label>
+            <input class="input-checkbox" type="checkbox" name="personality" value="passive"/>Passive
+          </label>
+          
+          <label>
+            <input class="input-checkbox" type="checkbox" name="personality" value="impatient"/>Impatient
+          </label>
+          
+          <label>
+            <input class="input-checkbox" type="checkbox" name="personality" value="loving"/>Loving
+          </label>
+          
+          <label>
+            <input class="input-checkbox" type="checkbox" name="personality" value="tolerable"/>Tolerable
+          </label>
+          
+          <label>
+            <input class="input-checkbox" type="checkbox" name="personality" value="reliable" />Reliable
+          </label>
+          
+          <label>
+            <input class="input-checkbox" type="checkbox" name="personality" value="self-driven" />Self-driven
+          </label>
+          
+          <label>
+            <input class="input-checkbox" type="checkbox" name="personality" value="bossy" />Bossy
+          </label>
+          
+          <label>
+            <input class="input-checkbox" type="checkbox" name="personality" value="lazy" />Lazy
+          </label>
+          
+          <label>
+            <input class="input-checkbox" type="checkbox" name="personality" value="perfectionist"/>Perfectionist
+          </label>
+          
+          <label>
+            <input class="input-checkbox" type="checkbox" name="personality" value="kind"/>Kind
+          </label>
+          
+          <label>
+            <input class="input-checkbox" type="checkbox" name="personality" value="self-centered" />Self-centered
+          </label>
+          
+          <label>
+            <input class="input-checkbox" type="checkbox" name="personality" value="patience"/>Patience
+          </label>
+        </div>
+        
+        <div class="form-group">
+          <p>Any comments or suggestions?</p>
+          <textarea
+             id="comments"
+             class="input-textarea"
+             name="comments"
+             placeholder="Enter your comment here..."/>
+          </textarea>
+      </div>
+      
+      <div class="form-group">
+        <button  class="submit-button" type="submit" id="submit" value="submit">Submit
+        </button>
+      </div>
+    </form>
+  </div>
+    
+  
